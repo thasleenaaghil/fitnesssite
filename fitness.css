@@ -1,0 +1,333 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+.link{
+   display: inline;
+   padding: 
+   4px;
+   
+   font-size: 20px;
+   font-weight: bold;
+   
+  }
+.navbar{
+  
+    
+     background-image: url('https://img.freepik.com/premium-photo/contemporary-spotless-fitness-gym-center-interiorgenerative-ai_391052-10889.jpg?w=2000');
+     position: relative;
+     min-height: 500px;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     display: flex;
+     justify-content: space-between;
+     overflow: hidden;
+     
+}
+.container{
+position: absolute;
+  display: flex;
+    margin-top: 15px;
+ }
+.item{
+   text-decoration: none;
+   color:white;
+} 
+.item:hover{
+  background-color: white;
+  color: black;
+}
+.tag-line{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    margin-left: 300px;
+    display: flex;
+    align-items: center;
+    text-shadow: 8px 
+    ;
+    
+}
+.trial-button{
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 4px 4px;
+  background-color: red;
+  color: white;
+  font-size: 18px;
+  margin-top: 100px;
+  border-color: white;
+ 
+ 
+}
+.trial-button:hover,.member-btn{
+  background-color: black;
+}
+.about-total{
+  display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 3rem;
+    background-color: black;
+   
+}
+.about-img{
+ border-radius:;
+ box-shadow: 8px 8px 8px rgba(240, 233, 233, 0.6);
+ 
+ padding: 15px;
+ object-position: center;
+ margin-top: 25px;
+ margin-left:50px;
+ width: 90%;
+}
+.about-para{
+  color: white;
+  font-size: 19px;
+  text-align: justify;
+  padding: 20px;
+  margin-top: 45px;
+  margin-right: 25px;
+}
+
+.personal-train{
+   position: relative;
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   height: 85vh;
+   overflow: hidden;
+
+}
+.member{
+ 
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  background-color:rgb(207, 205, 205);
+ 
+}
+.train-image{
+width: 95%;
+object-position: center;
+padding: 15px;
+margin-left: 20px;
+margin-top: 12px;
+box-shadow: 4px 4px 4px 4px;
+}
+
+.personal-train{
+  background-color: white;
+  height: 40%;
+  width: 80%;
+  padding: 12px; ;
+  margin-top: 105px;
+  margin-left: -70px;
+  box-sizing: content-box;
+  box-shadow: 4px 4px 4px 4px;
+
+
+}
+.personal-train h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+}
+.member-btn{
+  background-color: red;
+  font-size: 15px;
+  color: white;
+  border-radius: 3px;
+  padding: 10px;
+  border: 2px solid rgb(12, 5, 5);
+  margin-top: 100px;
+}
+.member-btn:hover{
+  background-color: black;
+  
+}
+.personal-train:hover{
+   color: white;
+   background-image: url('https://c4.wallpaperflare.com/wallpaper/199/924/33/muscle-muscle-bodybuilding-press-wallpaper-preview.jpg');
+}
+.overlay{
+  opacity: 1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: 5px solid black;
+  color: white;
+     margin: 30PX;
+  padding: 20px;
+ font-size: large;
+  padding-left: 500px;
+  box-shadow: 4px 4px 4px 4px;
+  background-image: url('https://img.freepik.com/premium-photo/gym-with-light-wall-treadmill_808092-1997.jpg');
+  
+}
+.pay-now{
+  background-color: red;
+  padding: 10px;
+  border-radius: 3px;
+  border: 2px solid black;
+  color: white;
+}
+.pay-now:hover{
+  background-color: black;
+  
+}
+.offer-p{
+  font-size: 20px;
+  color: red;
+  font-weight: bolder;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-top: 20px;
+  position: relative;
+  animation: mymove 5s;
+ animation-timing-function: linear;
+ animation-iteration-count: infinite;
+ animation-fill-mode: forwards;
+}
+@keyframes mymove{
+  from {left: 0;}
+  to {left: 50%;}
+  
+
+}
+
+
+.service-2{
+    display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+.yoga{
+   background-color: rgb(80, 214, 231);
+  width: 80%;
+  height: 70%;
+  margin-left: -100px;
+  margin-top: 80px;
+  box-sizing: content-box;
+  box-shadow: 4px 4px 4px 4px;
+}
+.yoga-img{
+  width: 90%;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.yoga h1{
+   font-size: 35px;
+  text-align: center;
+  font-weight: 900;
+  color: white;
+  margin-top: 40px;
+}
+.yoga p{
+   padding: 30px;
+  font-size: 30px;
+  text-align: justify;
+  color: white;
+  font-style: italic;
+  opacity: 0;
+}
+
+
+.yoga p:hover{
+ opacity: 1;
+ transition: 0.5s linear;
+
+}
+.services{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+.service-img{
+  width: 100%;
+ box-shadow: 8px 8px 8px 8px;
+  margin-top: 30px;
+}
+.service-imgdiv{
+  margin-right: 50px;
+  position: relative;
+  
+}
+.services h1{
+  text-align: center;
+  font-size: 40px;
+  margin-top: 200px;
+}
+.services h1:hover{
+  text-decoration: underline;
+  border: 5px solid black;
+   box-shadow: 8px 8px 8px 8px;
+   width: 70%;
+   margin-left: 70px;
+   padding: 5px;
+   
+}
+.service-para{
+    position: absolute;
+  text-align: justify;
+  margin-left: 780px;
+  margin-top: 50px;
+  margin-right: 30px;
+  opacity: 0;
+  color: white;
+  transition: opacity 0.5s ease;
+  padding-right: 40px;
+  padding-top: 10px;
+}
+.services:hover .service-para{
+  opacity: 1;
+}
+#contacts{
+  background-color: black;
+  margin-top: 50px;
+  color: aqua;
+}
+.apps{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.apps h1{
+  padding: 20px;
+}
+.icon-set{
+   margin-top: 10px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon{
+  padding: 10px;
+ 
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ border-radius: 50%;
+}
+.icon:hover{
+  background-color: aqua;
+
+ 
+  
+  color: black;
+}
+.footer{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  margin: 30px;
+
+}
+.map{
+  width: 25%;
+  height: 470px;
+}
+html{
+  scroll-behavior: smooth;
+}
